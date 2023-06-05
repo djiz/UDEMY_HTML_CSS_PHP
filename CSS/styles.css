@@ -1,0 +1,56 @@
+/* Couleur de texte */
+
+/* Alignement de texte */
+
+/* Lignes de décoration */
+
+/* Maj / Min Polices */
+h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px blue;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    /*text-transform: lowercase;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+ul {
+    font-family: monospace;
+}
+/* Style et taille de police */
+p {
+    /*font-style: italic;*/
+    font-size: 18px;
+}
+
+/* Arrière plan en CSS */
+div {
+    height: 500px;
+    background-color: #d8dae5;
+    /*background-image: url("../Images/maldives-g3fe7ecb8f_1280.jpg");*/
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Bordures en CSS */
+.border {
+    border-style: double;
+    border-width: 3px;
+    border-color: red;
+}
+
+/* Bordures des tableaux */
+
+.table table {
+    width: 60%;
+    border: 1px solid;
+}
+th, td {
+    height: 40px;
+}
+tr:nth-child(even) {
+    background-color: #7e91ef;
+}
+th {
+    background-color: #99ddbb;
+}

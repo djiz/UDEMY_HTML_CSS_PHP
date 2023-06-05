@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDEMY Formation HTML_CSS_PHP</title>
+</head>
+<body>
+    <!-- Formatage du texte -->
+    <div>
+        <h3>Formatage du texte</h3>
+        <p>
+            Lorem, ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit. Natus officiis <b>asperiores</b> rerum quam sequi! Eos natus odio error beatae minus sapiente. <i>Explicabo</i> maxime harum optio doloribus, <small>veritatis</small> natus dolorum provident?
+        </p>
+        <p>H<sub>2</sub>O</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quo voluptatibus sapiente consequuntur numquam quisquam doloremque autem nam voluptatum ad.<sup>1</sup><sup>[1]</sup></p>
+    </div>
+
+    <!-- Listes ordonnées et non-ordonnées -->
+    <div>
+        <!-- Listes non-ordonnées -->
+        <h3>Listes non-ordonnées</h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <!-- Listes ordonnées -->
+        <h3>Listes ordonnées</h3>
+        <ol>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+    </div>
+
+    <!-- Listes HTML imbriquées -->
+    <div>
+        <h3>Listes HTML imbriquées</h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Aut temporibus tenetur labore saepe.</li>
+                    <li>Repellat culpa consequatur vel cupiditate.</li>
+                    <li>Molestias accusamus assumenda tempore possimus.</li>
+                </ol>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </div>
+
+    <!-- Les Liens-->
+    <div>
+        <h3>Les Liens</h3>
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <br><br>
+        <a href="https://www.skilldeve.com" target="_blank">Visitez ma plateforme d'enseignement en ligne</a>
+    </div>
+
+    <!-- Les tableaux -->
+    <div>
+        <h3>Les Tableaux</h3>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>Colonne1</th>
+                    <th>Colonne2</th>
+                    <th>Colonne3</th>
+                    <th>Colonne4</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Cellule1</td>
+                <td>Cellule2</td>
+                <td>Cellule3</td>
+                <td>Cellule4</td>
+            </tr>
+            <tr>
+                <td>Cellule5</td>
+                <td>Cellule6</td>
+                <td>Cellule7</td>
+                <td>Cellule8</td>
+            </tr>
+            <tr>
+                <td>Cellule9</td>
+                <td>Cellule10</td>
+                <td>Cellule11</td>
+                <td>Cellule12</td>
+            </tr>
+            <tr>
+                <td>Cellule13</td>
+                <td>Cellule14</td>
+                <td>Cellule15</td>
+                <td>Cellule16</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th>Colonne1</th>
+                    <th>Colonne2</th>
+                    <th>Colonne3</th>
+                    <th>Colonne4</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- Tableaux et fusion des cellules -->
+    <div>
+        <h3>Tableaux et fusion des cellules</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Colonne1</th>
+                    <th>Colonne2</th>
+                    <th>Colonne3</th>
+                    <th>Colonne4</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Cellule1</td>
+                <td colspan="2">Cellule2 et Cellule3</td>
+                <td rowspan="4">Cellules 4, 8, 12 et 16</td>
+            </tr>
+            <tr>
+                <td>Cellule5</td>
+                <td>Cellule6</td>
+                <td>Cellule7</td>
+            </tr>
+            <tr>
+                <td>Cellule9</td>
+                <td>Cellule10</td>
+                <td>Cellule11</td>
+            </tr>
+            <tr>
+                <td>Cellule13</td>
+                <td>Cellule14</td>
+                <td>Cellule15</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th>Colonne1</th>
+                    <th>Colonne2</th>
+                    <th>Colonne3</th>
+                    <th>Colonne4</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- Formulaires -->
+    <div>
+        <h3>Les formulaires</h3>
+        <form action="traitement.html">
+            <label for="nom">Nom:</label>
+            <input type="text" name="" id="nom" placeholder="Votre Nom">
+            <br><br>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" placeholder="Votre Prénom">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Votre Email">
+            <br><br>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" placeholder="Votre mot de passe">
+            <br><br>
+            <textarea name="message" id="message" cols="60" rows="8" placeholder="Veuillez écrire votre message"></textarea>
+            <br><br>
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="portugal">Portugal</option>
+                <option value="espagne">Espagne</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Envoyer">
+
+            <h4>Choisissez votre formation: </h4>
+            <form action="">
+                <input type="checkbox" name="formation" id="html" value="html">
+                <label for="html">Formation HTML</label> <br>
+                <input type="checkbox" name="formation" id="php" value="html">
+                <label for="php">Formation PHP</label> <br>
+                <input type="checkbox" name="formation" id="css" value="html">
+                <label for="css">Formation CSS</label> <br>
+            </form>
+
+            <h4>Choisissez votre sexe:</h4>
+            <form action="">
+                <input type="radio" name="sexe" id="homme" value="homme">
+                <label for="homme">Homme</label>
+                <input type="radio" name="sexe" id="femme" value="femme">
+                <label for="homme">Femme</label>
+            </form>
+        </form>
+    </div>
+
+    <!-- La Balise DIV -->
+    <div>
+        <div style="background-color: lightblue; height:300px; width: 500px;">
+            <h3>La balise DIV</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel aspernatur eligendi reprehenderit culpa eius autem sed impedit at odit quidem enim modi, debitis natus nisi facere? Quibusdam, vel aperiam.</p>
+        </div>
+        <div style="background-color: lightcoral;">
+            <ul>
+                <li>Point numéro 1</li>
+                <li>Point numéro 2</li>
+                <li>Point numéro 3</li>
+            </ul>
+        </div>
+        <div style="background-color: lightgreen; height: 150px; width: 800px">
+            <form action="">
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom">
+            </form>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
