@@ -1,4 +1,4 @@
-/* Styles Généraux */
+/*----------  Styles Généraux ----------*/
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ p {
 }
 
 
-/* Barre de naviguation */
+/*---------- Barre de naviguation -----------*/
 .logo {
     max-width: 100px;
 }
@@ -80,7 +80,7 @@ p {
     width: 50%;
 }
 
-/* Image header, titres et bouton */
+/*---------- Image header, titres et bouton ----------*/
 .header {
     background-image: url("../images/header.jpg");
     height: 90vh;
@@ -118,4 +118,84 @@ p {
     border: 1px solid #fe725f;
     background-color: #fe725f;
     transition: .5s;
+}
+
+/*---------- Formations ----------*/
+.formations {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.formations .row {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.formations-col {
+    flex-basis: 30%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: .4s;
+    position: relative;
+}
+.formations-col img {
+    width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.formations-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #182c64;
+}
+.formations-col p {
+    padding: 10px 20px;
+}
+.formations-col:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.formations-col .btn-formation {
+    display: inline-block;
+    text-decoration: none;
+    color: #182c64;
+    border: 1px solid #182c64;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+    transition: .4s;
+    font-weight: 600;
+}
+.formations-col .btn-formation:hover {
+    border: 1px #182c64;
+    color: #fff;
+    background-color: #182c64;
+}
+.formations-col .prix {
+    background-color: #f98305;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 650;
+    font-size: 13px;
+    position: absolute;
+    right: 12px;
+    top: 125px;
+}
+.formations-col .star-formation {
+    text-align: left;
+    margin-left: 20px;
+    color: #f98305;
+    margin-bottom: 10px;
 }
