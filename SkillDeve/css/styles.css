@@ -262,3 +262,48 @@ p {
     margin-left: 5px;
     margin-right: 24px;
 }
+
+/*---------- Devenir formateur ----------*/
+.formateur {
+    background-image: linear-gradient(rgba(4, 41, 117, 0.6), rgba(4, 41, 117, 0.6)), url(../images/banner.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-bloc {
+    width: 70%;
+    text-align: center;
+}
+.text-bloc h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.text-bloc p {
+    color: #fff;
+    font-size: 16px;
+}
+.text-bloc .btn-formateur {
+    background-color: #f98305;
+    font-size: 16px;
+    padding: 12px 34px;
+    font-weight: 600;
+    height: 3.5em;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.text-bloc .btn-formateur:hover {
+    border: 1px solid #09c7fa;
+    background-color: #09c7fa;
+    color: #fff;
+    transition: .6s;
+}
