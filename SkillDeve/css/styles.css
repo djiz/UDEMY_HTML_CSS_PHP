@@ -452,6 +452,16 @@ p {
     margin-bottom: 20px;
     outline: none;
 }
+.contact-form .form .row-col-form textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 20px;
+    color: #4a4948;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
 .contact-form .form .row-col-form button {
     width: 100%;
     font-size: 20px;
