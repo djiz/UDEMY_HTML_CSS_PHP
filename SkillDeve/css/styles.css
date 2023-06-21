@@ -392,3 +392,79 @@ p {
     background-color: #fe725f;
     transition: .6s;
 }
+
+/*---------- Formulaire de contact ----------*/
+.contact-form {
+    width: 100%;
+    margin: auto;
+    background-image: url('../images/datascience.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-form .form {
+    width: 50%;
+    background-color: #f0f1f3;
+    margin: 70px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact-form .form h4 {
+    color: #4a4948;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+.contact-form .form p {
+    color: #4a4948;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.contact-form .form .row-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-form .form .row-form input {
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #4a4948;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact-form .form .row-col-form input,
+.contact-form .form .row-form textarea {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #4a4948;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact-form .form .row-col-form button {
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    background-color: #1b2148;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.contact-form .form .row-col-form button:hover {
+    background-color: #1f7df5;
+    transition: .6s;
+}
