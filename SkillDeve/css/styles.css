@@ -342,3 +342,53 @@ p {
     margin-top: 20px;
     color: #f98305;
 }
+
+/*---------- Newsletter ----------*/
+#newsletter {
+    background-color: #1b2148;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 120px;
+}
+#newsletter .text h3 {
+    font-size: 32px;
+    color: #09c7fa;
+}
+#newsletter .text p {
+    font-size: 18px;
+    color: #fff;
+}
+#newsletter .form-newsletter {
+    display: flex;
+    width: 36%;
+}
+#newsletter .form-newsletter input {
+    height: 3.5em;
+    padding: 0 1.4em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter .form-newsletter .input-btn {
+    background-color: #09c7fa;
+    height: 3.5em;
+    padding: 0 1.4em;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+#newsletter .form-newsletter .input-btn:hover {
+    background-color: #fe725f;
+    transition: .6s;
+}
