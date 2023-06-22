@@ -478,3 +478,72 @@ p {
     background-color: #1f7df5;
     transition: .6s;
 }
+
+/*---------- Section footer ----------*/
+footer {
+    margin: 35px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.col h3 {
+    color: #4a4948;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.col h4 {
+    color: #4a4948;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.contact-info-detail p {
+    line-height: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #bbb8b7;
+}
+footer p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+.col a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #3d3f3f;
+}
+.col a:hover {
+    color: #f98305;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+.fa-location-dot {
+    font-size: 16px;
+    height: 20px;
+    color: #053292;
+    margin-right: 15px;
+}
+.fa-phone {
+    font-size: 16px;
+    height: 20px;
+    color: #053292;
+    margin-right: 15px;
+}
+.fa-envelope {
+    font-size: 16px;
+    height: 20px;
+    color: #053292;
+    margin-right: 15px;
+}
+.contact-info-detail div {
+    display: flex;
+}
